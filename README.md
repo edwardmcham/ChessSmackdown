@@ -1,4 +1,4 @@
-# ⚔️ Ultimate Chess (AI)
+# ![banner](https://github.com/edwardmcham/UltimateChess/blob/main/help/Content/img/ultimate_chess_banner.png)⚔️ Ultimate Chess (AI)
 
 **A card-battle chess variant where captures are settled by a draw, not a rule.**
 
