@@ -1,0 +1,116 @@
+﻿/* ==========================================================================
+   THEME — plain literal color rules per theme, deliberately NOT using
+   CSS custom properties (var(--x)). Flare's "Resolve CSS variables"
+   build option apparently bakes ALL var() usage in the stylesheet down
+   to static values at build time — including ours, not just Flare's own
+   --Primary/--Dark/etc. — which silently broke our dark-mode toggle.
+   Leaving that Flare setting checked (its intended state, needed for
+   Flare's own search bar / header styling to render correctly) means we
+   can't use var() for anything we want to actually change at runtime.
+   Duplicating the color values per theme below avoids the conflict
+   entirely — more verbose, but nothing here depends on that setting.
+   ========================================================================== */
+
+:root[data-theme="light"] body {
+  background-color: #FAF8F3 !important;
+  color: #0B1220 !important;
+}
+:root[data-theme="light"] h1,
+:root[data-theme="light"] h2,
+:root[data-theme="light"] h3 {
+  color: #12203A !important;
+}
+:root[data-theme="light"] a {
+  color: #12203A !important;
+}
+:root[data-theme="light"] a:hover {
+  color: #D9A441 !important;
+}
+:root[data-theme="light"] table,
+:root[data-theme="light"] .MCDropDown,
+:root[data-theme="light"] .MCCodeSnippet {
+  background-color: #F0EBE0 !important;
+  border-color: #D8CFB8 !important;
+}
+:root[data-theme="light"] .print-icon-btn,
+:root[data-theme="light"] .theme-toggle-btn {
+  color: #0B1220;
+}
+
+:root[data-theme="dark"] body {
+  background-color: #0B1220 !important;
+  color: #EDEBE3 !important;
+}
+:root[data-theme="dark"] h1,
+:root[data-theme="dark"] h2,
+:root[data-theme="dark"] h3 {
+  color: #F2C15C !important;
+}
+:root[data-theme="dark"] a {
+  color: #D9A441 !important;
+}
+:root[data-theme="dark"] a:hover {
+  color: #F2C15C !important;
+}
+:root[data-theme="dark"] strong,
+:root[data-theme="dark"] b {
+  color: #F2C15C !important;
+}
+:root[data-theme="dark"] table,
+:root[data-theme="dark"] .MCDropDown,
+:root[data-theme="dark"] .MCCodeSnippet {
+  background-color: #12203A !important;
+  border-color: #1B2A4A !important;
+}
+:root[data-theme="dark"] .print-icon-btn,
+:root[data-theme="dark"] .theme-toggle-btn {
+  color: #EDEBE3;
+}
+
+body {
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* ==========================================================================
+   TOOLBAR BUTTONS — shared base styling
+   ========================================================================== */
+
+.uc-toolbar-buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.uc-toolbar-buttons-floating {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  background: rgba(128, 128, 128, 0.1);
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.print-icon-btn,
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.print-icon-btn:hover,
+.theme-toggle-btn:hover {
+  background: rgba(128, 128, 128, 0.15);
+}
+
+:root[data-theme="light"] .theme-toggle-btn .icon-dark  { display: inline-flex; }
+:root[data-theme="light"] .theme-toggle-btn .icon-light { display: none; }
+:root[data-theme="dark"]  .theme-toggle-btn .icon-dark  { display: none; }
+:root[data-theme="dark"]  .theme-toggle-btn .icon-light { display: inline-flex; }

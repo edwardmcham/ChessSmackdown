@@ -1,0 +1,15 @@
+var xmlFullTocData = "";
+xmlFullTocData += '<?xml version=\"1.0\" encoding=\"utf-8\"?>';
+xmlFullTocData += '<CatapultToc Version=\"1\" DescendantCount=\"10\">';
+xmlFullTocData += '    <TocEntry Title=\"Ultimate Chess — Player\'s Guide\" Link=\"/Content/Ultimate Chess — Players Guide.htm\" xmlns:MadCap=\"http://www.madcapsoftware.com/Schemas/MadCap.xsd\" ComputedResetPageLayout=\"true\" ComputedFirstTopic=\"true\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"Starting a Game\" Link=\"/Content/Starting a Game.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"Card Battles — How Fights Work\" Link=\"/Content/Card Battles — How Fights.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"Sniper Cards &amp; Armageddon\" Link=\"/Content/Sniper Cards &amp; Armageddon.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"Check — But No Checkmate\" Link=\"/Content/Check — But No Checkmate.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"King Battles — The ONLY Way to Win\" Link=\"/Content/King Battles — The ONLY Way.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"Little Differences from Regular Chess\" Link=\"/Content/Little Differences from Regular.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"Playing Against the Computer\" Link=\"/Content/Playing Against the Computer.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"Sound &amp; Voice\" Link=\"/Content/Sound &amp; Voice.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"Quick Reference\" Link=\"/Content/Quick Reference.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '</CatapultToc>';
+MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('FullToc', xmlFullTocData);

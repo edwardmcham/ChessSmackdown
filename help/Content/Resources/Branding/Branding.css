@@ -1,0 +1,221 @@
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+body
+{
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 1.7em;
+    margin: 17px;
+    max-width: 750px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-weight: bold;
+    color: #749AB6;
+}
+
+p.example
+{
+    color: #546C7F;
+    border: solid 1px #BECFDC;
+    background-color: #DEE8F0;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    padding: 14px 20px;
+}
+
+p.note
+{
+    color: #616E14;
+    border: solid 1px #BFD62F;
+    background-color: #DAE691;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    padding: 14px 20px;
+}
+
+a
+{
+    color: #5B8EC1;
+}
+
+MadCap|expanding
+{
+    mc-open-image: url('resources:Images/WebHelp/minus.png');
+    mc-closed-image: url('resources:Images/WebHelp/plus.png');
+    mc-image-position: left;
+}
+
+MadCap|dropDown
+{
+    mc-open-image: url('resources:Images/WebHelp/minus.png');
+    mc-closed-image: url('resources:Images/WebHelp/plus.png');
+}
+
+MadCap|toggler
+{
+    mc-open-image: url('resources:Images/WebHelp/minus.png');
+    mc-closed-image: url('resources:Images/WebHelp/plus.png');
+    color: inherit;
+}
+
+MadCap|popupHead
+{
+    color: #5B8EC1;
+}
+
+MadCap|popupBody
+{
+	color: #EBEBEB;
+	border: none;
+	background-color: rgba(0, 0, 0, .85);
+	padding: 11px 15px;
+}
+
+MadCap|glossaryTerm
+{
+}
+
+MadCap|glossaryTerm.Expanding
+{
+    color: inherit;
+    font-weight: inherit;
+}
+
+MadCap|glossaryTerm.Hyperlink
+{
+    color: #5B8EC1;
+    font-weight: inherit;
+}
+
+MadCap|glossaryTerm.Popup
+{
+    color: #5B8EC1;
+    font-weight: normal;
+}
+
+MadCap|conceptLink
+{
+    color: #000000;
+}
+
+MadCap|keywordLink
+{
+    color: #000000;
+}
+
+MadCap|relatedTopics
+{
+    color: #000000;
+}
+
+MadCap|helpControlMenu
+{
+    color: #707070;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+MadCap|helpControlMenuItem
+{
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+MadCap|helpControlMenuItem.Highlighted
+{
+	color: #000000;
+    background-color: #E5EFF7;
+}
+
+/* Added by Edward McHam via Claude step-by-step guide */
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #0B1220;
+  background-color: #FFFFFF;
+}
+
+h1, h2, h3 {
+  font-family: 'Cinzel', Georgia, serif;
+  color: #12203A;
+}
+
+h1 > img {
+    margin-bottom: 1em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #12203A;
+}
+
+a:hover {
+  color: #D9A441;
+}
+
+hr {
+  border-color: #D9A441;
+  border-width: 2px;
+}
+
+strong {
+  color: #12203A;
+}
+
+#resultList li .title a b,
+#resultList li .description b {
+    background-color: goldenrod;
+    color: black !important;
+}
+
+#resultList li .url cite {
+    font-style: italic;
+}
+
+
+.search-bar {
+    width: fit-content;
+    margin: 0;
+}
+
+.search-bar .search-field {
+  color: #12203A !important;
+  background-color: #FFFFFF !important;
+  border: 1px solid #12203A !important;
+}
+
+.search-bar .search-field::placeholder {
+  color: #4B5568 !important;
+  opacity: 1 !important;
+}
+
+.title-bar.sticky.is-stuck {
+    background-color: lightslategrey;
+}
+
+.title-bar-layout a.logo {
+    background: none;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: lightsteelblue;
+    color: black;
+    padding: 0.2em 0.4em;
+    text-align: left;
+}
+
+td {
+    padding: 0.2em 0.4em;
+}
