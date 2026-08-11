@@ -1,5 +1,5 @@
 ﻿/**
- * Print-to-PDF for Ultimate Chess HTML5 Help — CSP-safe version.
+ * Print-to-PDF for Chess Smackdown HTML5 Help — CSP-safe version.
  * Same hidden-iframe-with-fallback logic as before; the only change is
  * exposing the function on window so toolbar-buttons.js can wire it up
  * via addEventListener rather than an inline onclick="" attribute
@@ -9,7 +9,7 @@
  * is finalized (see project notes — it should live outside any
  * Flare-managed output folder so a future rebuild can't overwrite it).
  */
-window.UC_PDF_URL = 'Resources/PrintPDF/UltimateChessPlayersGuide.pdf';
+window.UC_PDF_URL = 'Resources/PrintPDF/ChessSmackdownPlayersGuide.pdf';
 
 window.ucPrintOrOpenPdf = function (pdfUrl) {
   pdfUrl = pdfUrl || window.UC_PDF_URL;

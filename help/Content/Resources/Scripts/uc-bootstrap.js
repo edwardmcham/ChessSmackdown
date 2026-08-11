@@ -1,5 +1,5 @@
 ﻿/**
- * Ultimate Chess HTML5 Help — toolbar bootstrap.
+ * Chess Smackdown HTML5 Help — toolbar bootstrap.
  *
  * Everything (theme handling, print-to-PDF, and toolbar button injection)
  * lives in this single file so the project's "Add content to head" field
@@ -74,7 +74,7 @@
 		open works identically on every device and every browser, with
 		nothing fragile to debug — one extra click, zero flakiness.
 		============================================================ */
-		var PDF_URL = 'Resources/PrintPDF/UltimateChessPlayersGuide.pdf';
+		var PDF_URL = 'Resources/PrintPDF/ChessSmackdownPlayersGuide.pdf';
 
 		function printOrOpenPdf() {
 			window.open(PDF_URL, '_blank', 'noopener');

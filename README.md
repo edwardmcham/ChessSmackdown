@@ -1,20 +1,20 @@
-# ![banner](https://github.com/edwardmcham/UltimateChess/blob/main/help/Content/img/ultimate_chess_banner.png)⚔️ Ultimate Chess (AI)
+# ![banner](https://github.com/edwardmcham/ChessSmackdown/blob/main/help/Content/img/chess_smackdown_banner.png)⚔️ Chess Smackdown (AI)
 
 **A card-battle chess variant where captures are settled by a draw, not a rule.**
 
-[**▶ Play now**](https://edwardmcham.github.io/UltimateChess/) · [📖 Player's Guide (HTML5)](https://edwardmcham.github.io/UltimateChess/help/) · [📄 Player's Guide (PDF)](https://edwardmcham.github.io/UltimateChess/help/Content/Resources/PrintPDF/UltimateChessPlayersGuide.pdf)
+[**▶ Play now**](https://edwardmcham.github.io/ChessSmackdown/) · [📖 Player's Guide (HTML5)](https://edwardmcham.github.io/ChessSmackdown/help/) · [📄 Player's Guide (PDF)](https://edwardmcham.github.io/ChessSmackdown/help/Content/Resources/PrintPDF/ChessSmackdownPlayersGuide.pdf)
 
 *Free, non-commercial browser game. No install, no account, no ads.*
 
 ---
 
-## What is Ultimate Chess?
+## What is Chess Smackdown?
 
 Standard chess, with one twist: **pieces don't just take each other — they fight for it.**
 
 Move a piece onto an enemy square and both sides draw a card. Higher card wins the battle; the loser's piece comes off the board. Every capture is a coin flip with teeth, which means the "better" position doesn't always win the exchange — and that's the point.
 
-Invented at a neighbor's kitchen table with his two sons (ages 15 and 12), Ultimate Chess started as a house rule and grew into a full digital build: a single-file browser game with a from-scratch AI opponent, animated card battles, sound design, and a complete player's guide.
+Invented at a neighbor's kitchen table with his two sons (ages 15 and 12), Chess Smackdown started as a house rule and grew into a full digital build: a single-file browser game with a from-scratch AI opponent, animated card battles, sound design, and a complete player's guide.
 
 ## Why It Plays Differently Than Chess
 
@@ -27,9 +27,9 @@ Invented at a neighbor's kitchen table with his two sons (ages 15 and 12), Ultim
 
 ## Play Now
 
-👉 **[edwardmcham.github.io/UltimateChess](https://edwardmcham.github.io/UltimateChess/)**
+👉 **[edwardmcham.github.io/ChessSmackdown](https://edwardmcham.github.io/ChessSmackdown/)**
 
-Choose Human (pass & play) or Computer, draw for color, and go. Full rules are in the in-game panel and the [Player's Guide](https://edwardmcham.github.io/UltimateChess/help/).
+Choose Human (pass & play) or Computer, draw for color, and go. Full rules are in the in-game panel and the [Player's Guide](https://edwardmcham.github.io/ChessSmackdown/help/).
 
 ## Built With
 
@@ -43,12 +43,12 @@ Choose Human (pass & play) or Computer, draw for color, and go. Full rules are i
 
 Full rules, King Battle mechanics, Sniper/Armageddon details, and how to play against the AI are documented in the player's guide:
 
-- **[HTML5 Help](https://edwardmcham.github.io/UltimateChess/help/)** — searchable, browsable
-- **[Printable PDF](https://edwardmcham.github.io/UltimateChess/help/Content/Resources/PrintPDF/UltimateChessPlayersGuide.pdf)** — for offline reference
+- **[HTML5 Help](https://edwardmcham.github.io/ChessSmackdown/help/)** — searchable, browsable
+- **[Printable PDF](https://edwardmcham.github.io/ChessSmackdown/help/Content/Resources/PrintPDF/ChessSmackdownPlayersGuide.pdf)** — for offline reference
 
 ## Credits & Attribution
 
-Ultimate Chess uses several third-party audio and visual assets, credited in full in the opening comment block of the game file. Highlights:
+Chess Smackdown uses several third-party audio and visual assets, credited in full in the opening comment block of the game file. Highlights:
 
 - Sound effects from [Freesound.org](https://freesound.org) (CC-BY 3.0 / 4.0) and [Pixabay](https://pixabay.com/sound-effects/) (Pixabay Content License)
 - Sniper and Armageddon animations generated with [Craiyon](https://www.craiyon.com/)

@@ -1,7 +1,7 @@
 var xmlFullTocData = "";
 xmlFullTocData += '<?xml version=\"1.0\" encoding=\"utf-8\"?>';
 xmlFullTocData += '<CatapultToc Version=\"1\" DescendantCount=\"10\">';
-xmlFullTocData += '    <TocEntry Title=\"Ultimate Chess — Player\'s Guide\" Link=\"/Content/Ultimate Chess — Players Guide.htm\" xmlns:MadCap=\"http://www.madcapsoftware.com/Schemas/MadCap.xsd\" ComputedResetPageLayout=\"true\" ComputedFirstTopic=\"true\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"Chess Smackdown — Player\'s Guide\" Link=\"/Content/Chess Smackdown — Players Guide.htm\" xmlns:MadCap=\"http://www.madcapsoftware.com/Schemas/MadCap.xsd\" ComputedResetPageLayout=\"true\" ComputedFirstTopic=\"true\" DescendantCount=\"0\" />';
 xmlFullTocData += '    <TocEntry Title=\"Starting a Game\" Link=\"/Content/Starting a Game.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
 xmlFullTocData += '    <TocEntry Title=\"Card Battles — How Fights Work\" Link=\"/Content/Card Battles — How Fights.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
 xmlFullTocData += '    <TocEntry Title=\"Sniper Cards &amp; Armageddon\" Link=\"/Content/Sniper Cards &amp; Armageddon.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
