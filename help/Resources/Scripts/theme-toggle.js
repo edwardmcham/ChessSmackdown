@@ -1,5 +1,5 @@
 /**
- * Theme toggle for Ultimate Chess HTML5 Help — CSP-safe version.
+ * Theme toggle for Chess Smackdown HTML5 Help — CSP-safe version.
  *
  * This file is loaded via an external <script src="theme-toggle.js"> tag
  * (not inline), so it works under a strict Content-Security-Policy like
